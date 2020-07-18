@@ -6,7 +6,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './pages/Home';
-import WillHaley from './pages/MainMap';
+import MainMap from './pages/MainMap';
 import SingleState from './pages/SingleState'
 import NotFound from './pages/NotFound'
 import './App.css';
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route path="/" component={Home} exact={true} />
-          <Route path="/mainmap" component={WillHaley} exact={true} />
+          <Route path="/mainmap" component={MainMap} exact={true} />
           <Route path="/state/:id" component={SingleState} exact={true} />
           <Route path="" component={NotFound} />
         </Switch>
