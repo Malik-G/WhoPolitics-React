@@ -1,0 +1,19 @@
+#hero-container{
+  /* background-image: url('./mn_capitol.jpg');
+  background-size: cover; */
+  /* height: 80vh; */
+  /* height: 70vh;
+  width: 70vw; */
+  /* right: 0;
+  top: 0;
+  width: 95%;
+  height: 95%; */
+}
+
+img{
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 80%;
+  width: 100%;
+}
