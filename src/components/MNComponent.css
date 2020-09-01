@@ -1,19 +1,101 @@
+body{
+  overflow-x: hidden;
+}
 #hero-container{
   /* background-image: url('./mn_capitol.jpg');
   background-size: cover; */
-  /* height: 80vh; */
-  /* height: 70vh;
-  width: 70vw; */
-  /* right: 0;
-  top: 0;
-  width: 95%;
-  height: 95%; */
+
+}
+h1{
+  /* font-size:10px;  */
+  margin-bottom: 10px;
+}
+img{
+  height: 100%;
+  width: 100%;
 }
 
-img{
-  right: 0;
-  left: 0;
-  bottom: 0;
-  height: 80%;
+/* /////////////////////////////////////////////////////////// */
+
+#hero-image{
+  background-attachment: fixed;
+}
+#nav-btn-container{
   width: 100%;
+  display: inline-block;
+  align-self: center;
+}
+.nav-container{
+  position:fixed;
+  display: grid;
+  grid-template-columns: 1fr minmax(200px, 1fr);
+  background: rgb(35, 35, 35);
+  height:60px;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+}
+.nav-link{
+  color: white;
+  text-decoration: none;
+}
+.rep-img{
+	height:10rem;
+	width:10em;
+	border-radius: 50%;
+  margin: auto;
+  justify-self: start;
+}
+.rep-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-template-rows: 100;
+  width: 75%;
+  margin: auto;
+  grid-gap: 1em;
+  color: rgb(200, 200, 200);
+}
+.senate-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  width: 75%;
+  margin: auto;
+  grid-gap: 1em;
+  color: rgb(200, 200, 200);
+}
+.state-nav-btn{
+  margin: 10px;
+  /* margin-right: 10px; */
+  background-color: rgba(68, 70, 70, 0.5);
+  border: none;
+  height: 50%;
+  width: 25%;
+  color: rgb(255, 255, 255);
+  float:left;
+  /* float: right; */
+}
+.state-nav-btn:hover{
+  background-color: rgba(102, 104, 104, 0.5);
+  /* font-size: 15px; */
+}
+.state-header {
+  /* color: slategrey; */
+  color: goldenrod;
+  font-family: 'Unica One';
+  letter-spacing: 0.1rem;
+}
+.us-house-container{
+  height: 100vh;
+}
+.us-rep-img{
+	height:10rem;
+	width:10em;
+	border-radius: 50%;
+  margin: auto;
+  justify-self: start;
+}
+.us-senate-container{
+  /* height: 100vh; */
+  margin-bottom:0
 }

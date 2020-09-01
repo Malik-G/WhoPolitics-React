@@ -1,5 +1,6 @@
 html {
   background: rgb(35, 35, 35);
+  /* background: white; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
